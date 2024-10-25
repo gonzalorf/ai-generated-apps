@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Código</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id="class-form">
+        <input type="text" id="project-name" placeholder="Nombre del Proyecto" required>
+        <input type="text" id="class-name" placeholder="Nombre de Clase" required>
+        <textarea id="properties" placeholder="Propiedades (tipo, nombre)" required></textarea>
+        <button type="submit">Generar</button>
+    </form>
+
+    <div id="generated-files-container"></div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
